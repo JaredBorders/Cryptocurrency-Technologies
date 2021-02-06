@@ -5,6 +5,7 @@ import java.util.Set;
 public class UTXOPool {
 
     /**
+     * Unspent transaction output == UTXO
      * The current collection of UTXOs, with each one mapped to its corresponding transaction output
      */
     private HashMap<UTXO, Transaction.Output> H;
